@@ -1,0 +1,10 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["transform-remove-console","./plugins/addComment"]
+}
+
+
+// For IE 11 browser configurations
+// {
+//   "presets": ["@babel/preset-env"]
+// }
